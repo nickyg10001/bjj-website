@@ -1,0 +1,19 @@
+{
+  "name": "bjj-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s . -l $PORT",
+    "dev": "serve -s . -l 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "BJJ Academy Website",
+  "dependencies": {
+    "serve": "^14.2.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
