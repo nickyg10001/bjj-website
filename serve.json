@@ -1,6 +1,15 @@
 {
-  "public": ".",
-  "cleanUrls": false,
-  "trailingSlash": true,
-  "directoryListing": false
+  "rewrites": [],
+  "redirects": [],
+  "headers": [
+    {
+      "source": "**/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
+  ]
 }
